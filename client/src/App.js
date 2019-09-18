@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Route } from "react-router-dom";
-import { MovieList } from "./components";
+import MovieList from "./Movies/MovieList";
+import Movie from "./Movies/Movie";
 
 import SavedList from "./Movies/SavedList";
 
@@ -23,6 +24,3 @@ const App = () => {
 };
 
 export default App;
-
-
-render = {props =>  <AvengersList {...props}avengers={avengers} /> }
